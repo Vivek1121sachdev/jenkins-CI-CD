@@ -5,7 +5,7 @@ pipeline{
         stage ('pre-requisite installation'){
             steps{
                 script{
-                    ./task2.sh
+                    sh'./task2.sh'
                 }
             }
         }
