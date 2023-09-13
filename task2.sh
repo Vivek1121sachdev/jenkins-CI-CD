@@ -2,12 +2,12 @@
 
 install_node{
     sudo apt update
-    sudo apt install nodejs npm
+    sudo apt install -y nodejs npm
 }
 
 install_nginx{
     sudo apt update
-    sudo apt install nginx
+    sudo apt install -y nginx
     sudo service nginx start
 }
 
