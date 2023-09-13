@@ -1,11 +1,11 @@
 #!/bin/bash
 
-install_node{
+install_node() {
     sudo apt update
     sudo apt install -y nodejs npm
 }
 
-install_nginx{
+install_nginx() {
     sudo apt update
     sudo apt install -y nginx
     sudo service nginx start
