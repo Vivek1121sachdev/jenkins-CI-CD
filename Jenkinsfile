@@ -5,7 +5,8 @@ pipeline{
         stage ('pre-requisite installation'){
             steps{
                 script{
-                    sh'./task2.sh'
+                    sh 'sudo chmod +x task2.sh'
+                    sh './task2.sh'
                 }
             }
         }
