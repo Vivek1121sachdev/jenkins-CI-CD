@@ -23,7 +23,7 @@ pipeline{
         stage ('deployment'){
             steps{
                 script{
-                    sh 'sudo cp -r build/ /var/www/html/'
+                    sh 'sudo cp -r build /var/www/html/'
                 }
             }
         }
